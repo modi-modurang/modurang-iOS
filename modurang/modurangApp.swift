@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-@main
-struct modurangApp: App {
+@main struct modurangApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

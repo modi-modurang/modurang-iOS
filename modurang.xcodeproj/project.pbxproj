@@ -3,22 +3,92 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772035C82CC089CE0070C965 /* signupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772035C72CC089CE0070C965 /* signupViewModel.swift */; };
+		772035D92CC5D77C0070C965 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772035D82CC5D77C0070C965 /* ProfileEditor.swift */; };
+		7757948E2CA3C10500888D3F /* markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757948D2CA3C10500888D3F /* markdown.swift */; };
+		775794962CA429D000888D3F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 775794952CA429D000888D3F /* Alamofire */; };
+		775794982CA4D68500888D3F /* modurangcalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794972CA4D68500888D3F /* modurangcalendar.swift */; };
+		775794CE2CB4E9C500888D3F /* workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794CD2CB4E9C500888D3F /* workspace.swift */; };
+		775794D02CB4E9E200888D3F /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794CF2CB4E9E200888D3F /* MyProfile.swift */; };
+		775794E52CB7955200888D3F /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794E42CB7955200888D3F /* ProfileImage.swift */; };
+		775794E72CB79EB600888D3F /* MyProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794E62CB79EB600888D3F /* MyProfileDetail.swift */; };
+		775794E92CB7F4AC00888D3F /* ScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794E82CB7F4AC00888D3F /* ScrollBar.swift */; };
+		775794EB2CB7F5DD00888D3F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794EA2CB7F5DD00888D3F /* TabBar.swift */; };
+		775794ED2CB8F37900888D3F /* ClubBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794EC2CB8F37900888D3F /* ClubBanner.swift */; };
+		775794EF2CB8FB4400888D3F /* ClubProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775794EE2CB8FB4400888D3F /* ClubProfile.swift */; };
 		778163F02C75FB21002C887D /* modurangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778163EF2C75FB21002C887D /* modurangApp.swift */; };
 		778163F22C75FB21002C887D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778163F12C75FB21002C887D /* ContentView.swift */; };
 		778163F42C75FB23002C887D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778163F32C75FB23002C887D /* Assets.xcassets */; };
 		778163F72C75FB23002C887D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778163F62C75FB23002C887D /* Preview Assets.xcassets */; };
+		778C6B732CB94226003F90A9 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C6B722CB94226003F90A9 /* APIConstants.swift */; };
+		778C6B752CB9470C003F90A9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C6B742CB9470C003F90A9 /* AuthService.swift */; };
+		77A002E22C89477800794BB4 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002D82C89477800794BB4 /* Pretendard-Black.ttf */; };
+		77A002E32C89477800794BB4 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002D92C89477800794BB4 /* Pretendard-Bold.ttf */; };
+		77A002E42C89477800794BB4 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DA2C89477800794BB4 /* Pretendard-ExtraBold.ttf */; };
+		77A002E52C89477800794BB4 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DB2C89477800794BB4 /* Pretendard-ExtraLight.ttf */; };
+		77A002E62C89477800794BB4 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DC2C89477800794BB4 /* Pretendard-Light.ttf */; };
+		77A002E72C89477800794BB4 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DD2C89477800794BB4 /* Pretendard-Medium.ttf */; };
+		77A002E82C89477800794BB4 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DE2C89477800794BB4 /* Pretendard-Regular.ttf */; };
+		77A002E92C89477800794BB4 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002DF2C89477800794BB4 /* Pretendard-SemiBold.ttf */; };
+		77A002EA2C89477800794BB4 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A002E02C89477800794BB4 /* Pretendard-Thin.ttf */; };
+		77A003202C956A0F00794BB4 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0031F2C956A0F00794BB4 /* login.swift */; };
+		77A003232C95706F00794BB4 /* signupname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A003222C95706F00794BB4 /* signupname.swift */; };
+		77A003252C95707D00794BB4 /* signupemail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A003242C95707D00794BB4 /* signupemail.swift */; };
+		77A003272C95708C00794BB4 /* signuppw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A003262C95708C00794BB4 /* signuppw.swift */; };
+		77A0032A2C95772B00794BB4 /* TmoneyRoundWindExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A003282C95772B00794BB4 /* TmoneyRoundWindExtraBold.ttf */; };
+		77A0032B2C95772B00794BB4 /* TmoneyRoundWindRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A003292C95772B00794BB4 /* TmoneyRoundWindRegular.ttf */; };
+		77A003302C95815200794BB4 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0032F2C95815200794BB4 /* home.swift */; };
+		77A003372C9D52AB00794BB4 /* loginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A003362C9D52AB00794BB4 /* loginViewModel.swift */; };
+		77A0033E2C9D55D300794BB4 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0033D2C9D55D300794BB4 /* TokenModel.swift */; };
+		77A003412C9D571900794BB4 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A003402C9D571900794BB4 /* KeychainManager.swift */; };
+		77FD1D7F2C85DED300E525A7 /* onbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD1D7E2C85DED300E525A7 /* onbording.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		772035C72CC089CE0070C965 /* signupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewModel.swift; sourceTree = "<group>"; };
+		772035D82CC5D77C0070C965 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		7757948D2CA3C10500888D3F /* markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = markdown.swift; sourceTree = "<group>"; };
+		775794972CA4D68500888D3F /* modurangcalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modurangcalendar.swift; sourceTree = "<group>"; };
+		775794CD2CB4E9C500888D3F /* workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workspace.swift; sourceTree = "<group>"; };
+		775794CF2CB4E9E200888D3F /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		775794E42CB7955200888D3F /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		775794E62CB79EB600888D3F /* MyProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileDetail.swift; sourceTree = "<group>"; };
+		775794E82CB7F4AC00888D3F /* ScrollBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBar.swift; sourceTree = "<group>"; };
+		775794EA2CB7F5DD00888D3F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		775794EC2CB8F37900888D3F /* ClubBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubBanner.swift; sourceTree = "<group>"; };
+		775794EE2CB8FB4400888D3F /* ClubProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubProfile.swift; sourceTree = "<group>"; };
 		778163EC2C75FB21002C887D /* modurang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modurang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778163EF2C75FB21002C887D /* modurangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modurangApp.swift; sourceTree = "<group>"; };
 		778163F12C75FB21002C887D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		778163F32C75FB23002C887D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778163F62C75FB23002C887D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		778164482C760B06002C887D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		778C6B722CB94226003F90A9 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		778C6B742CB9470C003F90A9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		77A002D82C89477800794BB4 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		77A002D92C89477800794BB4 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		77A002DA2C89477800794BB4 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		77A002DB2C89477800794BB4 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		77A002DC2C89477800794BB4 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		77A002DD2C89477800794BB4 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		77A002DE2C89477800794BB4 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		77A002DF2C89477800794BB4 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		77A002E02C89477800794BB4 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		77A0031F2C956A0F00794BB4 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		77A003222C95706F00794BB4 /* signupname.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupname.swift; sourceTree = "<group>"; };
+		77A003242C95707D00794BB4 /* signupemail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupemail.swift; sourceTree = "<group>"; };
+		77A003262C95708C00794BB4 /* signuppw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signuppw.swift; sourceTree = "<group>"; };
+		77A003282C95772B00794BB4 /* TmoneyRoundWindExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TmoneyRoundWindExtraBold.ttf; sourceTree = "<group>"; };
+		77A003292C95772B00794BB4 /* TmoneyRoundWindRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TmoneyRoundWindRegular.ttf; sourceTree = "<group>"; };
+		77A0032F2C95815200794BB4 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		77A003362C9D52AB00794BB4 /* loginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewModel.swift; sourceTree = "<group>"; };
+		77A0033D2C9D55D300794BB4 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		77A003402C9D571900794BB4 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		77FD1D7E2C85DED300E525A7 /* onbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onbording.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775794962CA429D000888D3F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +122,18 @@
 		778163EE2C75FB21002C887D /* modurang */ = {
 			isa = PBXGroup;
 			children = (
+				77A0033F2C9D56BE00794BB4 /* Manager */,
+				77A003352C9D4A1400794BB4 /* ViewModel */,
+				77A003342C9D4A0C00794BB4 /* View */,
+				77A003332C9D4A0100794BB4 /* Model */,
+				77A002E12C89477800794BB4 /* fonts */,
+				778164482C760B06002C887D /* Info.plist */,
 				778163EF2C75FB21002C887D /* modurangApp.swift */,
 				778163F12C75FB21002C887D /* ContentView.swift */,
 				778163F32C75FB23002C887D /* Assets.xcassets */,
 				778163F52C75FB23002C887D /* Preview Content */,
+				778C6B722CB94226003F90A9 /* APIConstants.swift */,
+				778C6B742CB9470C003F90A9 /* AuthService.swift */,
 			);
 			path = modurang;
 			sourceTree = "<group>";
@@ -65,6 +144,81 @@
 				778163F62C75FB23002C887D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77A002E12C89477800794BB4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77A003282C95772B00794BB4 /* TmoneyRoundWindExtraBold.ttf */,
+				77A003292C95772B00794BB4 /* TmoneyRoundWindRegular.ttf */,
+				77A002D82C89477800794BB4 /* Pretendard-Black.ttf */,
+				77A002D92C89477800794BB4 /* Pretendard-Bold.ttf */,
+				77A002DA2C89477800794BB4 /* Pretendard-ExtraBold.ttf */,
+				77A002DB2C89477800794BB4 /* Pretendard-ExtraLight.ttf */,
+				77A002DC2C89477800794BB4 /* Pretendard-Light.ttf */,
+				77A002DD2C89477800794BB4 /* Pretendard-Medium.ttf */,
+				77A002DE2C89477800794BB4 /* Pretendard-Regular.ttf */,
+				77A002DF2C89477800794BB4 /* Pretendard-SemiBold.ttf */,
+				77A002E02C89477800794BB4 /* Pretendard-Thin.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		77A003212C95703300794BB4 /* signup */ = {
+			isa = PBXGroup;
+			children = (
+				77A003222C95706F00794BB4 /* signupname.swift */,
+				77A003242C95707D00794BB4 /* signupemail.swift */,
+				77A003262C95708C00794BB4 /* signuppw.swift */,
+			);
+			path = signup;
+			sourceTree = "<group>";
+		};
+		77A003332C9D4A0100794BB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77A0033D2C9D55D300794BB4 /* TokenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77A003342C9D4A0C00794BB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77A003212C95703300794BB4 /* signup */,
+				77A0031F2C956A0F00794BB4 /* login.swift */,
+				77A0032F2C95815200794BB4 /* home.swift */,
+				77FD1D7E2C85DED300E525A7 /* onbording.swift */,
+				7757948D2CA3C10500888D3F /* markdown.swift */,
+				775794972CA4D68500888D3F /* modurangcalendar.swift */,
+				775794CD2CB4E9C500888D3F /* workspace.swift */,
+				775794CF2CB4E9E200888D3F /* MyProfile.swift */,
+				775794E42CB7955200888D3F /* ProfileImage.swift */,
+				775794E62CB79EB600888D3F /* MyProfileDetail.swift */,
+				775794E82CB7F4AC00888D3F /* ScrollBar.swift */,
+				775794EA2CB7F5DD00888D3F /* TabBar.swift */,
+				775794EC2CB8F37900888D3F /* ClubBanner.swift */,
+				775794EE2CB8FB4400888D3F /* ClubProfile.swift */,
+				772035D82CC5D77C0070C965 /* ProfileEditor.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77A003352C9D4A1400794BB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				77A003362C9D52AB00794BB4 /* loginViewModel.swift */,
+				772035C72CC089CE0070C965 /* signupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77A0033F2C9D56BE00794BB4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				77A003402C9D571900794BB4 /* KeychainManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +237,9 @@
 			dependencies = (
 			);
 			name = modurang;
+			packageProductDependencies = (
+				775794952CA429D000888D3F /* Alamofire */,
+			);
 			productName = modurang;
 			productReference = 778163EC2C75FB21002C887D /* modurang.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +268,10 @@
 				Base,
 			);
 			mainGroup = 778163E32C75FB21002C887D;
+			packageReferences = (
+				77A003132C91AA2800794BB4 /* XCLocalSwiftPackageReference "../../../swift-markdown" */,
+				775794942CA429D000888D3F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 778163ED2C75FB21002C887D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +286,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A002EA2C89477800794BB4 /* Pretendard-Thin.ttf in Resources */,
 				778163F72C75FB23002C887D /* Preview Assets.xcassets in Resources */,
+				77A002E32C89477800794BB4 /* Pretendard-Bold.ttf in Resources */,
+				77A0032A2C95772B00794BB4 /* TmoneyRoundWindExtraBold.ttf in Resources */,
+				77A002E82C89477800794BB4 /* Pretendard-Regular.ttf in Resources */,
+				77A002E42C89477800794BB4 /* Pretendard-ExtraBold.ttf in Resources */,
+				77A002E92C89477800794BB4 /* Pretendard-SemiBold.ttf in Resources */,
+				77A002E52C89477800794BB4 /* Pretendard-ExtraLight.ttf in Resources */,
 				778163F42C75FB23002C887D /* Assets.xcassets in Resources */,
+				77A002E62C89477800794BB4 /* Pretendard-Light.ttf in Resources */,
+				77A002E22C89477800794BB4 /* Pretendard-Black.ttf in Resources */,
+				77A002E72C89477800794BB4 /* Pretendard-Medium.ttf in Resources */,
+				77A0032B2C95772B00794BB4 /* TmoneyRoundWindRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +309,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775794CE2CB4E9C500888D3F /* workspace.swift in Sources */,
+				778C6B752CB9470C003F90A9 /* AuthService.swift in Sources */,
+				772035D92CC5D77C0070C965 /* ProfileEditor.swift in Sources */,
+				772035C82CC089CE0070C965 /* signupViewModel.swift in Sources */,
+				775794E52CB7955200888D3F /* ProfileImage.swift in Sources */,
+				775794EB2CB7F5DD00888D3F /* TabBar.swift in Sources */,
+				775794D02CB4E9E200888D3F /* MyProfile.swift in Sources */,
 				778163F22C75FB21002C887D /* ContentView.swift in Sources */,
+				7757948E2CA3C10500888D3F /* markdown.swift in Sources */,
+				77A0033E2C9D55D300794BB4 /* TokenModel.swift in Sources */,
+				77FD1D7F2C85DED300E525A7 /* onbording.swift in Sources */,
 				778163F02C75FB21002C887D /* modurangApp.swift in Sources */,
+				77A003202C956A0F00794BB4 /* login.swift in Sources */,
+				775794982CA4D68500888D3F /* modurangcalendar.swift in Sources */,
+				77A003272C95708C00794BB4 /* signuppw.swift in Sources */,
+				778C6B732CB94226003F90A9 /* APIConstants.swift in Sources */,
+				77A003412C9D571900794BB4 /* KeychainManager.swift in Sources */,
+				775794EF2CB8FB4400888D3F /* ClubProfile.swift in Sources */,
+				77A003252C95707D00794BB4 /* signupemail.swift in Sources */,
+				77A003302C95815200794BB4 /* home.swift in Sources */,
+				77A003372C9D52AB00794BB4 /* loginViewModel.swift in Sources */,
+				775794E72CB79EB600888D3F /* MyProfileDetail.swift in Sources */,
+				775794E92CB7F4AC00888D3F /* ScrollBar.swift in Sources */,
+				77A003232C95706F00794BB4 /* signupname.swift in Sources */,
+				775794ED2CB8F37900888D3F /* ClubBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +469,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"modurang/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = modurang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +483,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.hs.dgsw.modurang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +503,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"modurang/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = modurang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +517,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.hs.dgsw.modurang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +549,32 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		77A003132C91AA2800794BB4 /* XCLocalSwiftPackageReference "../../../swift-markdown" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../swift-markdown";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		775794942CA429D000888D3F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		775794952CA429D000888D3F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775794942CA429D000888D3F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 778163E42C75FB21002C887D /* Project object */;
 }
