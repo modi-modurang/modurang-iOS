@@ -209,9 +209,10 @@ struct login: View {
                     } catch {
                         print("키체인 저장 실패: \(error)")
                     }
-//                    break
+
                     alertMessage = "로그인이 완료되었습니다."  // 성공 메시지
                     showAlert = true                          // 알림을 표시
+                    
                 case .failure(let error):
                     alertMessage = "로그인 실패: \(error.localizedDescription)"  // 실패 시 오류 메시지
                     showAlert = true                          // 알림을 표시
